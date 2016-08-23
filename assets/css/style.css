@@ -18,7 +18,7 @@
 body {
           font-family:'Open Sans', sans-serif;
     font-size:14px;
-    background-image:url(../img/sativa.png);
+    background-color: #292929
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,6 +34,10 @@ h1 {
     color:rgba(0, 121, 138, 1);
 }
 
+.col_center {
+    float: none;
+    margin: 0 auto;
+}
 
 .pad-adjust {
     padding-top: 5px; 
@@ -46,6 +50,7 @@ h1 {
 
 h2 {
     line-height:50px;
+    color: #fff;
 }
 h3 {
     line-height:30px;
@@ -63,6 +68,7 @@ p {
     font-weight:300;
     line-height:30px;
     padding-bottom:15px;
+    color: #fff;
 }
 
 .space-free {
@@ -84,6 +90,11 @@ section {
 }
 .form-control {
         background-color: rgba(255, 255, 255, 0);
+}
+
+.fit {
+    width: 100%;
+    height: 30%;
 }
 /*=======================================
     HOME SECTION STYLES
@@ -225,7 +236,7 @@ font-size: 45px;
 .stats-div {
     text-align:center;
     width: 100%;
-    min-height: 100px;
+    min-height: 200px;
     padding: 30px 20px 30px 20px;
 }
 
